@@ -1,0 +1,165 @@
+body {
+    margin: auto;
+    max-width: 1098px;
+    width: 100%;
+    height: 100%;
+    max-height: 1657px;
+    font-family: Roboto;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  li {
+    margin-top: 10px;
+  }
+  
+  /*----------LEFT---------------------*/
+  
+  .left {
+    width: 35%;
+    background-color: #d6e1da;
+  }
+  
+  /*----Block photo------------*/
+  
+  .photo-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #325a42;
+    border-radius: 0 0 80px 0;
+    height: 60%;
+    width: 100%;
+    max-width: 500px;
+    max-height: 739px;
+  }
+  
+  .photo-container .location {
+    margin: 0 auto;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  .photo-container .date {
+    margin: 10px auto;
+    color: aliceblue;
+    font-weight: 400;
+  }
+  
+  .photo-container .photo {
+    width: 55%;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10% 20%;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  /*------FORM------------*/
+  .left .form-name {
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 30px;
+  }
+  
+  .left form {
+    margin: 0 40px;
+  }
+  
+  .input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #00000059;
+    border-radius: 8px;
+    background: #ece7e7;
+    color: #c1a5a5;
+  }
+  
+  label {
+    margin: 3px 0;
+  }
+  
+  .message {
+    width: 100%;
+    height: 70px;
+    border-radius: 8px;
+    border: 1px solid #00000059;
+    background: #ece7e7;
+    resize: none;
+  }
+  
+  .btn {
+    border: none;
+    background: #325a42;
+    color: aliceblue;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  
+  /*-----------------RIGHT-----------*/
+  
+  .right {
+    padding: 0;
+    width: 65%;
+    background-color: #e5e5e5;
+  }
+  
+  header {
+    padding: 10%;
+    background-color: #d6e1da;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .table {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .table:hover {
+    color: #325a42;
+    transition: 0.3s;
+  }
+  .skills {
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  
+  .education {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .education .years {
+    width: 100px;
+  }
+  
+  .years li {
+    margin-bottom: 50px;
+  }
+  
+  .education p {
+    padding: 0 20px;
+  }
+  

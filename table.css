@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(4, 44, 4, 0.432);
+    font-family: Roboto;
+  }
+
+  .home{
+    color: black;
+    text-decoration: none; 
+    text-transform: uppercase; 
+  }
+  .homes{
+    background-color: #15550852;
+  }
+  .home:hover{
+    color: #95c219;
+    transition: 0.3s; 
+  }
+
+  .kont{
+    width:450px;
+    background-color: antiquewhite;
+  }
+  .info{
+    background-color: antiquewhite;
+  }
+
+  .tel{
+      background-color: #c6c91e93;
+  }
+  .tel:hover{
+    background-color: #2a3802a8;
+    transition: 0.3s;
+  }
+  .infor{
+      background-color: #c6c91e93;
+  }
